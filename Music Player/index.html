@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head section start-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link
+      rel="icon"
+      href="AssetsandStyle\Images\iconmusic.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/26aaeb8aba.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="AssetsandStyle/style.css" />
+  </head>
+
+  <!-- Body section start -->
+  <body>
+    <!-- Header section -->
+    <header>
+      <!-- Navbar section -->
+      <nav id="navbar">
+        <div id="logo"><img src="AssetsandStyle/Images/musiclogo.png" /></div>
+        <a href="#">Favourites</a>
+        <div id="float-right">
+          <div class="search-container">
+            <input
+              type="text"
+              class="search-input"
+              id="searchBox"
+              placeholder="Search..."
+            />
+            <i
+              class="fa fa-microphone search-icon"
+              style="color: #ded7d7"
+              id="microphoneIcon"
+            ></i>
+          </div>
+          <i class="fa-solid fa-bell" style="color: #ded7d7"></i>
+          <div id="nav-img">
+            <img src="AssetsandStyle/Images/navArtist.jpg" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- carousal Effect -->
+      <div class="carousel column">
+        <figure id="carousel-item1" class="Zoom-In">
+          <img src="AssetsandStyle/Images/Carousal-Image1.jpg" alt="Image 1" />
+        </figure>
+        <figure id="carousel-item2" class="Zoom-In">
+          <img src="AssetsandStyle/Images/Carousal-Image2.jpg" alt="Image 2" />
+        </figure>
+        <figure id="carousel-item3" class="Zoom-In">
+          <img src="AssetsandStyle/Images/Carousal-Image3.jpg" alt="Image 3" />
+        </figure>
+      </div>
+
+      <!-- Latestrelase section -->
+      <div class="latestrelease-section">
+        <h1>Latest Release</h1>
+        <div class="latestrelease">
+          <div class="latest-release-img" id="relase1">
+            <img src="AssetsandStyle/Images/latestreleaseimg.jpg" />
+
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase2">
+            <img src="AssetsandStyle/Images/latestreleaseimg1.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase3">
+            <img src="AssetsandStyle/Images/latestreleaseimg2.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase4">
+            <img src="AssetsandStyle/Images/latestreleaseimg5.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase5">
+            <img src="AssetsandStyle/Images/latestreleaseimg6.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+
+          <div class="latest-release-img" id="relase6">
+            <img src="AssetsandStyle/Images/latestreleaseimg7.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+
+          <div class="latest-release-img" id="relase7">
+            <img src="AssetsandStyle/Images/latestreleaseimg3.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Popular Artist -->
+      <div class="Artist-section">
+        <h1>Popular Artist</h1>
+        <div class="artistlist">
+          <div class="artist-img" id="artist1">
+            <img src="AssetsandStyle/Images/singer1.jpg" />
+          </div>
+          <div class="artist-img" id="artist2">
+            <img src="AssetsandStyle/Images/singer2.jpg" />
+          </div>
+          <div class="artist-img" id="artist3">
+            <img src="AssetsandStyle/Images/singer3.jpg" />
+          </div>
+          <div class="artist-img" id="artist4">
+            <img src="AssetsandStyle/Images/singer4.jpg" />
+          </div>
+          <div class="artist-img" id="artist5">
+            <img src="AssetsandStyle/Images/singer5.jpg" />
+          </div>
+
+          <div class="artist-img" id="artist6">
+            <img src="AssetsandStyle/Images/singer6.jpg" />
+          </div>
+
+          <div class="artist-img" id="artist7">
+            <img src="AssetsandStyle/Images/singer7.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Music Stationn -->
+      <div class="musicstation-section">
+        <div class="musictype">
+          <div class="musictype-img" id="musictype1">
+            <img src="AssetsandStyle/Images/Love.jpg" />
+            <center><p>Love</p></center>
+          </div>
+          <div class="musictype-img" id="musictype2">
+            <img src="AssetsandStyle/Images/Party.jpg" />
+
+            <center><p>Party</p></center>
+          </div>
+          <div class="musictype-img" id="musictype3">
+            <img src="AssetsandStyle/Images/Classical.jpg" />
+
+            <center><p>Classical</p></center>
+          </div>
+          <div class="musictype-img" id="musictype4">
+            <img src="AssetsandStyle/Images/pop.jpg" />
+
+            <center><p>Pop</p></center>
+          </div>
+          <div class="musictype-img" id="musictype5">
+            <img src="AssetsandStyle/Images/Rap.jpg" />
+
+            <center><p>Rap</p></center>
+          </div>
+
+          <div class="musictype-img" id="musictype6">
+            <img src="AssetsandStyle/Images/Rock.jpg" />
+            <center><p>Rock</p></center>
+          </div>
+
+          <div class="musictype-img" id="musictype7">
+            <img src="AssetsandStyle/Images/singer7.jpg" />
+            <center><p>Country</p></center>
+          </div>
+        </div>
+      </div>
+
+      <div class="Instrument">
+        <figure id="Party" class="Zoom-In">
+          <img src="AssetsandStyle/Images/Instrument.jpg" alt="Image 1" />
+        </figure>
+        <figure id="Electronic" class="Zoom-In">
+          <img src="AssetsandStyle/Images/Instrument2.jpg" alt="Image 2" />
+        </figure>
+        <figure id="Roadtrip" class="Zoom-In">
+          <img src="AssetsandStyle/Images/Carousal-Image3.jpg" alt="Image 3" />
+        </figure>
+      </div>
+      <div class="latestrelease-section">
+        <h1>Latest Hindi</h1>
+        <div class="latestrelease">
+          <div class="latest-release-img" id="relase1">
+            <img src="AssetsandStyle/Images/latestreleaseimg.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase2">
+            <img src="AssetsandStyle/Images/latestreleaseimg1.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase3">
+            <img src="AssetsandStyle/Images/latestreleaseimg2.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase4">
+            <img src="AssetsandStyle/Images/latestreleaseimg5.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase5">
+            <img src="AssetsandStyle/Images/latestreleaseimg6.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+
+          <div class="latest-release-img" id="relase6">
+            <img src="AssetsandStyle/Images/latestreleaseimg7.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+
+          <div class="latest-release-img" id="relase7">
+            <img src="AssetsandStyle/Images/latestreleaseimg3.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latestrelease-section">
+        <h1>Latest English</h1>
+        <div class="latestrelease">
+          <div class="latest-release-img" id="relase1">
+            <img src="AssetsandStyle/Images/latestreleaseimg.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase2">
+            <img src="AssetsandStyle/Images/latestreleaseimg1.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase3">
+            <img src="AssetsandStyle/Images/latestreleaseimg2.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase4">
+            <img src="AssetsandStyle/Images/latestreleaseimg5.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+          <div class="latest-release-img" id="relase5">
+            <img src="AssetsandStyle/Images/latestreleaseimg6.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+
+          <div class="latest-release-img" id="relase6">
+            <img src="AssetsandStyle/Images/latestreleaseimg7.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+
+          <div class="latest-release-img" id="relase7">
+            <img src="AssetsandStyle/Images/latestreleaseimg3.jpg" />
+            <span>
+              <p>Onlsm</p>
+              <p>Oct 28 2023</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Aside Section -->
+    <aside id="aside-section">
+      <div id="queue">
+        <p>Queue</p>
+        <a href="#"
+          ><span
+            >Queue<i
+              class="fa-solid fa-arrow-down-long"
+              style="color: #fcfcfc; padding: 10px; font-size: 15px"
+            ></i></span
+        ></a>
+      </div>
+      <div id="aside-main">
+        <div class="aside-img">
+          <span class="number">01</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Mirage</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">02</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">01</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Mirage</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">04</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">05</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">06</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">07</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">08</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">09</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">10</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">11</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">12</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">13</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">14</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">15</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">16</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">17</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">18</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">19</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">20</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">21</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">22</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">23</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">24</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+        <div class="aside-img">
+          <span class="number">25</span
+          ><button class="play-btn">
+            <img src="AssetsandStyle/Images/musiclogo.png" /></button
+          ><span class="songname">Worry Bout us</span
+          ><i
+            class="fa-regular fa-heart"
+            style="color: #f1f1f1; float: right; margin-top: 10px"
+          ></i>
+        </div>
+      </div>
+    </aside>
+
+    <footer>
+      <div id="music-control-system">
+        <!-- <audio controls>
+          <source src="horse.ogg" type="audio/ogg" />
+          <source src="horse.mp3" type="audio/mpeg" />
+        </audio> -->
+        <div id="control-button"></div>
+        <i class="control-i fa-solid fa-list-ul" style="color: #f5f5f5"></i>
+        <i class="control-i fa-solid fa-forward fa-rotate-180" style="color: #fcfcfc"></i>
+        <i class="control-i fa-solid fa-pause" style="color: #ffffff"></i>
+        <i class="control-i fa-solid fa-forward" style="color: #fcfcfc"></i>
+        <i class="control-i fa-solid fa-repeat" style="color: #ffffff"></i>
+        <div id="progress"><span>0.00</span><progress id="file" value="80" max="100"> 20% </progress><span>5.55</span></div>
+      </div>
+    </footer>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
